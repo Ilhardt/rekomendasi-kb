@@ -11,7 +11,7 @@ export default async function page() {
   const data: Keyboard[] = response;
   return (
     <div className="bg-[#030325]">
-      <div className="flex w-full flex-wrap">
+      <div className="flex w-full flex-wrap pb-5">
         {data.map((e, i) => (
           <KeyboardCard key={i} data={e} />
         ))}
