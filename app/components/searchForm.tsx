@@ -97,7 +97,7 @@ export default function searchForm() {
       </div>
       <div className="flex w-full flex-col max-w-sm p-2 gap-2">
         <Label className="text-white">Price</Label>
-        <div className="flex flex-row max-w-sm justify-between gap-2">
+        <div className="flex flex-row max-w-sm justify-between gap-2 text-white">
           <TextInput
             type="number"
             addon="Min"

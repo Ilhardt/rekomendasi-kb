@@ -38,7 +38,7 @@ export default function KeyboardCard({ data }: KeyboardCardProps) {
                 </h3>
               </span>
 
-              <p className="mt-2 line-clamp-3 text-sm/relaxed text-white">
+              <p className="mt-2 text-justify text-sm/relaxed text-white max-h-screen">
                 {data.description}
               </p>
             </div>

@@ -35,7 +35,7 @@ export default function Expandable({ data, liftingUpExpand }: ExpandableProps) {
       <div
         className={`transition-all duration-700 ease-in-out transform ${
           isExpand
-            ? "opacity-100 translate-y-0 max-h-[2000px]"
+            ? "opacity-100 translate-y-0 max-h-[9999px]"
             : "opacity-0 -translate-y-3 max-h-0"
         } overflow-hidden`}
       >
